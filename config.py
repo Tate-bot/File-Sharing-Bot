@@ -13,7 +13,7 @@ API = environ.get("API", "ccbc7c4cfaa16862cdc24bf8daa23e6e5e9a8b38") # shortlink
 URL = environ.get("URL", "modijiurl.com") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/howto_open_tatelikns") # how to open link 
 BOT_USERNAME = environ.get("BOT_USERNAME", "Tate_sharebot") # bot username without @
-VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
+VERIFY = environ.get("VERIFY", "False") # set True Or False and make sure spelling is correct and first letter capital.
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
@@ -74,7 +74,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(5560200410)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
