@@ -16,7 +16,7 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "Tate_sharebot") # bot username witho
 VERIFY = environ.get("VERIFY", "False") # set True Or False and make sure spelling is correct and first letter capital.
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7772321001:AAEz2KUhh8XfgjOxQzYXZke19Z6m6VNXru4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28810170"))
@@ -25,10 +25,10 @@ APP_ID = int(os.environ.get("APP_ID", "28810170"))
 API_HASH = os.environ.get("API_HASH", "d8fa6697eb16406d15015179aa641fee")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002074576309"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002382486349"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5560200410"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5560200410 7767426734"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
