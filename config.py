@@ -16,7 +16,7 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "Tate_sharebot") # bot username witho
 VERIFY = environ.get("VERIFY", "False") # set True Or False and make sure spelling is correct and first letter capital.
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7772321001:AAEz2KUhh8XfgjOxQzYXZke19Z6m6VNXru4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28810170"))
